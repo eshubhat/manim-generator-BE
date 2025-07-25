@@ -1,0 +1,31 @@
+{
+  "name": "manim-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "@google/genai": "^1.10.0",
+    "@google/generative-ai": "^0.24.1",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.0",
+    "express": "4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "mime": "^4.0.7",
+    "mongoose": "^8.16.4",
+    "openai": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.1",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^24.0.15",
+    "ts-node": "^10.9.2"
+  }
+}
