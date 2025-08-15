@@ -8,7 +8,7 @@ interface SessionDocument extends Document {
 const SessionDocument = new Schema<SessionDocument>(
   {
     user_id: { type: String, required: true },
-    title: { type: String, required: true },
+    title: { type: String },
   },
   {
     timestamps: true,
